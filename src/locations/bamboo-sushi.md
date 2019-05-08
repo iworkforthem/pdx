@@ -11,4 +11,4 @@ emoji:
   character: 🍣
 ---
 
-Portland isn't known for its sushi, but this is a great option if you’re in the mood. Try the _Green Machine_ and the _California Sunset_.
+Sustainbly sourced sushi. Try the _Green Machine_, _California Sunset_, and the _spicy cauliflower_.
