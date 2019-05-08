@@ -1,0 +1,4 @@
+footer {
+	border-bottom: double var( --color-dark ) 3px;
+	padding: 2.0em 0;
+}

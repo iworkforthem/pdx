@@ -1,0 +1,35 @@
+:root {
+	--color-dark: #444;
+	--color-light: #ddd;
+	--max-width: 500px;
+}
+
+body {
+	padding: 0.5em;
+	color: var( --color-dark );
+	font-family: adobe-caslon-pro, serif;
+	font-size: 16px;
+	font-style: normal;
+}
+
+@media screen and (min-width: 600px) {
+	body {
+		padding: 2.0em;
+	}
+}
+
+h1, h2, p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+p {
+	font-size: 1.25em;
+	line-height: 1.45em;
+}
+
+header, .locations, footer {
+	max-width: var( --max-width );
+	margin: 0 auto;
+}

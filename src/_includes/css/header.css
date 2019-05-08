@@ -1,0 +1,9 @@
+header {
+	border-top: double var( --color-dark ) 3px;
+	padding: 7.0em 0;
+}
+
+h1 {
+	font-size: 3.0em;
+	font-weight: 600;
+}
