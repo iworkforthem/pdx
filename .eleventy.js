@@ -4,7 +4,9 @@ module.exports = function( config )
 {
 	config.addCollection( 'locations', collection =>
 	{
-		return collection.getFilteredByGlob( 'src/locations/*.md' );
+		return collection
+			.getFilteredByGlob( 'src/locations/*.md' )
+			.filter( location => !location.data.hidden );
 	});
 
 	config.addFilter( 'classify', string =>
