@@ -1,3 +1,5 @@
+const smartquotes = require( 'smartquotes' );
+
 module.exports = function( config )
 {
 	config.addCollection( 'locations', collection =>
@@ -14,6 +16,11 @@ module.exports = function( config )
 		});
 
 		return classes.join( ' ' );
+	});
+
+	config.addFilter( 'smartquotes', string =>
+	{
+		return smartquotes( string );
 	});
 
 	return {
