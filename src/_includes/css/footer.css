@@ -1,4 +1,13 @@
 footer {
-	border-bottom: double var( --color-dark ) 3px;
-	padding: 2.0em 0;
+	border-top: double var( --color-dark ) 3px;
+	padding: 5.33em 0 3.33em;
+	font-family: myriad-pro, Helvetica;
+	font-size: 0.75em;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+footer a {
+	color: inherit;
 }
