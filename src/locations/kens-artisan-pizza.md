@@ -8,4 +8,4 @@ emoji:
   label: pizza
 ---
 
-Wood-fired pizza, arguably the best in Portland—or at least we think so. Get the _Handmade_, simple but exceptional.
+Wood-fired pizza, arguably the best in Portland—or at least we think so. The _Handmade_ and the _old-fashioned_ are both exceptional.
