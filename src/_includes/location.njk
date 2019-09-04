@@ -2,5 +2,6 @@
 <div class="location {{ neighborhoods | classify }}">
 	<h2><a href="{{ location.data.url }}">{{ location.data.title | smartquotes }}</a></h2>
 	{{ location.templateContent | smartquotes | safe }}
+	<p class="neighborhoods">{{ location.data.neighborhoods | list }}</p>
 	<span class="emoji" role="img" aria-label="{{ location.data.emoji.label }}">{{ location.data.emoji.character }}</span>
 </div>

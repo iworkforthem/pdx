@@ -1,13 +1,22 @@
 .location {
 	border-top: solid var( --color-light ) 1px;
-	padding: 6.0em 0 4.0em 0;
+	padding: 6.0em 0 6.0em 0;
 }
 
 .location h2 {
-	margin-bottom: 3.0em;
+	margin-bottom: 3em;
 	font-family: myriad-pro, Helvetica;
 	font-size: 1.125em;
 	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.neighborhoods {
+	margin: 1.333333333em 0;
+	color: var( --color-mid );
+	font-family: myriad-pro, Helvetica;
+	font-size: 0.75em;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 

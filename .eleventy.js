@@ -20,6 +20,12 @@ module.exports = function( config )
 		return classes.join( ' ' );
 	});
 
+	config.addFilter( 'list', array =>
+	{
+		return array
+			.join( ", " );
+	});
+
 	config.addFilter( 'smartquotes', string =>
 	{
 		return smartquotes( string );
