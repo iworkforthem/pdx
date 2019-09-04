@@ -2,7 +2,7 @@
 title: Portland Bottle Shop
 url: http://www.pdxbottleshop.com
 neighborhoods:
-  - SE
+  - Sellwood
 emoji:
   character: 🍻
   label: beer
